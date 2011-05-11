@@ -279,6 +279,7 @@
 				B5F4537613794EC700B5F0CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
