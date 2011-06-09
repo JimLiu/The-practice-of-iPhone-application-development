@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5583159139D5D01005677A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5583158139D5D01005677A3 /* UIKit.framework */; };
+		B558315B139D5D01005677A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B558315A139D5D01005677A3 /* Foundation.framework */; };
+		B558315D139D5D01005677A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B558315C139D5D01005677A3 /* CoreGraphics.framework */; };
+		B5583163139D5D01005677A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5583161139D5D01005677A3 /* InfoPlist.strings */; };
+		B5583166139D5D01005677A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583165139D5D01005677A3 /* main.m */; };
+		B5583169139D5D01005677A3 /* SayHelloAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583168139D5D01005677A3 /* SayHelloAppDelegate.m */; };
+		B558316C139D5D01005677A3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B558316A139D5D01005677A3 /* MainWindow.xib */; };
+		B5583175139D8600005677A3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5583173139D8600005677A3 /* RootViewController.m */; };
+		B5583176139D8600005677A3 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5583174139D8600005677A3 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5583154139D5D01005677A3 /* SayHello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayHello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5583158139D5D01005677A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B558315A139D5D01005677A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B558315C139D5D01005677A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5583160139D5D01005677A3 /* SayHello-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SayHello-Info.plist"; sourceTree = "<group>"; };
+		B5583162139D5D01005677A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5583164139D5D01005677A3 /* SayHello-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SayHello-Prefix.pch"; sourceTree = "<group>"; };
+		B5583165139D5D01005677A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5583167139D5D01005677A3 /* SayHelloAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SayHelloAppDelegate.h; sourceTree = "<group>"; };
+		B5583168139D5D01005677A3 /* SayHelloAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayHelloAppDelegate.m; sourceTree = "<group>"; };
+		B558316B139D5D01005677A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B5583172139D8600005677A3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B5583173139D8600005677A3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B5583174139D8600005677A3 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5583151139D5D01005677A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5583159139D5D01005677A3 /* UIKit.framework in Frameworks */,
+				B558315B139D5D01005677A3 /* Foundation.framework in Frameworks */,
+				B558315D139D5D01005677A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5583149139D5D00005677A3 = {
+			isa = PBXGroup;
+			children = (
+				B558315E139D5D01005677A3 /* SayHello */,
+				B5583157139D5D01005677A3 /* Frameworks */,
+				B5583155139D5D01005677A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5583155139D5D01005677A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5583154139D5D01005677A3 /* SayHello.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5583157139D5D01005677A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5583158139D5D01005677A3 /* UIKit.framework */,
+				B558315A139D5D01005677A3 /* Foundation.framework */,
+				B558315C139D5D01005677A3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B558315E139D5D01005677A3 /* SayHello */ = {
+			isa = PBXGroup;
+			children = (
+				B5583167139D5D01005677A3 /* SayHelloAppDelegate.h */,
+				B5583168139D5D01005677A3 /* SayHelloAppDelegate.m */,
+				B558316A139D5D01005677A3 /* MainWindow.xib */,
+				B558315F139D5D01005677A3 /* Supporting Files */,
+				B5583172139D8600005677A3 /* RootViewController.h */,
+				B5583173139D8600005677A3 /* RootViewController.m */,
+				B5583174139D8600005677A3 /* RootViewController.xib */,
+			);
+			path = SayHello;
+			sourceTree = "<group>";
+		};
+		B558315F139D5D01005677A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5583160139D5D01005677A3 /* SayHello-Info.plist */,
+				B5583161139D5D01005677A3 /* InfoPlist.strings */,
+				B5583164139D5D01005677A3 /* SayHello-Prefix.pch */,
+				B5583165139D5D01005677A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5583153139D5D01005677A3 /* SayHello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B558316F139D5D01005677A3 /* Build configuration list for PBXNativeTarget "SayHello" */;
+			buildPhases = (
+				B5583150139D5D01005677A3 /* Sources */,
+				B5583151139D5D01005677A3 /* Frameworks */,
+				B5583152139D5D01005677A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SayHello;
+			productName = SayHello;
+			productReference = B5583154139D5D01005677A3 /* SayHello.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B558314B139D5D00005677A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Openlab;
+			};
+			buildConfigurationList = B558314E139D5D00005677A3 /* Build configuration list for PBXProject "SayHello" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5583149139D5D00005677A3;
+			productRefGroup = B5583155139D5D01005677A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5583153139D5D01005677A3 /* SayHello */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5583152139D5D01005677A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5583163139D5D01005677A3 /* InfoPlist.strings in Resources */,
+				B558316C139D5D01005677A3 /* MainWindow.xib in Resources */,
+				B5583176139D8600005677A3 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5583150139D5D01005677A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5583166139D5D01005677A3 /* main.m in Sources */,
+				B5583169139D5D01005677A3 /* SayHelloAppDelegate.m in Sources */,
+				B5583175139D8600005677A3 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5583161139D5D01005677A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5583162139D5D01005677A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B558316A139D5D01005677A3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B558316B139D5D01005677A3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B558316D139D5D01005677A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B558316E139D5D01005677A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B5583170139D5D01005677A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SayHello/SayHello-Prefix.pch";
+				INFOPLIST_FILE = "SayHello/SayHello-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5583171139D5D01005677A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SayHello/SayHello-Prefix.pch";
+				INFOPLIST_FILE = "SayHello/SayHello-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B558314E139D5D00005677A3 /* Build configuration list for PBXProject "SayHello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B558316D139D5D01005677A3 /* Debug */,
+				B558316E139D5D01005677A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B558316F139D5D01005677A3 /* Build configuration list for PBXNativeTarget "SayHello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5583170139D5D01005677A3 /* Debug */,
+				B5583171139D5D01005677A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B558314B139D5D00005677A3 /* Project object */;
+}
